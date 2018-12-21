@@ -172,7 +172,7 @@ x2 <- sample_data(sim.biom)$x2
 ```
 Run aMiAD
 ```
-fit <- aMiAD(alpha, y, cov = cbind(x1,x2), model = "binomial")
+fit <- aMiAD(alpha, y, cov = cbind(x1,x2), model = "binomial", Normalize = FALSE)
 ```
 Plot aMiAD
 ```
