@@ -22,7 +22,7 @@ URL: https://github.com/hk1785/aMiAD
 
 ## Reference
 
-* Koh H. An adaptive microbiome alpha-diversity-based association analysis method. _Sci Rep_ 2018; 8(18026) 
+* Koh H. An adaptive microbiome α-diversity-based association analysis method. _Sci Rep_ 2018; 8(18026) 
 * DOI: https://doi.org/10.1038/s41598-018-36355-7
 
 ## Prerequites
@@ -81,7 +81,7 @@ Alpha.Diversity(phylo, metrics = c("Observed", "Shannon", "Simpson", "PD", "PE",
  
 ### References
 
-* Koh H. An adaptive microbiome alpha-diversity-based association analysis method. _Sci Rep_ 2018; 8(18026) 
+* Koh H. An adaptive microbiome α-diversity-based association analysis method. _Sci Rep_ 2018; 8(18026) 
 * Allen B, Kon M, Bar-Yam Y. A new phylogenetic diversity measure generalizing the Shannon index and its application to phyllostomid bats. _Am Nat_ 2009; 174(2): 236-43.
 * Chao A. Non-parametric estimation of the number of classes in a population. _Scand J Stat_ 1984; 11: 265-70.
 * Chao A, Lee S. Estimating the number of classes via sample coverage. _J Am Stat Assoc_ 1992; 87: 210-17.
@@ -140,7 +140,7 @@ _$aMiAD.out_ - aMiAD. 'p-value' and 'aMiDivES' are the p-value and microbial div
 *Effect score estimation - 'aMiDivES' represents the effect direction and size of the microbial diversity on a host trait. 'aMiDivES > 0' and 'aMiDivES < 0'indicate positive and negative associations, respectively (e.g., if a binary trait is coded as 0 for the non-diseased population and 1 for the diseased population and 'aMiDivES < 0', aMiAD estimates that the diseased population has lower microbial diversity than the non-diseased population.)
 
 ### References
-* Koh H. An adaptive microbiome alpha-diversity-based association analysis method. _Sci Rep_ 2018; 8(18026) 
+* Koh H. An adaptive microbiome α-diversity-based association analysis method. _Sci Rep_ 2018; 8(18026) 
 
 ### Examples
 Import requisite R packages
