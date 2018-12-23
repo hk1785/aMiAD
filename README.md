@@ -162,7 +162,7 @@ rare.biom <- rarefy_even_depth(sim.biom, rngseed=TRUE)
 ```
 Create α-diversity metrics 
 ```
-alpha <- Alpha.Diversity(sim.biom, Normalize = FALSE)
+alpha <- Alpha.Diversity(sim.biom, Normalize=FALSE)
 ```
 Import a binary trait and covariate adjustments
 ```
