@@ -71,7 +71,7 @@ This function creates α-diversity metrics.
 
 ### Usage
 ```
-Alpha.Diversity(phylo, metrics = c("Observed", "Shannon", "Simpson", "PD", "PE", "PQE"), Normalize=TRUE)
+Alpha.Diversity(phylo, metrics=c("Observed","Shannon","Simpson","PD","PE","PQE"), Normalize=TRUE)
 ```
 
 ### Arguments
@@ -111,7 +111,7 @@ rare.biom <- rarefy_even_depth(sim.biom, rngseed=TRUE)
 ```
 Create α-diversity metrics 
 ```
-Alpha.Diversity(sim.biom)
+Alpha.Diversity(sim.biom, Normalize=FALSE)
 ```
 
 
@@ -122,7 +122,7 @@ This function tests the association bettwen microbial diversity in a community a
 
 ### Usage
 ```
-aMiAD(alpha, Y, cov = NULL, model = c("gaussian", "binomial"), n.perm = 5000)
+aMiAD(alpha, Y, cov=NULL, model=c("gaussian","binomial"), n.perm=5000)
 ```
 
 ### Arguments
@@ -162,7 +162,7 @@ rare.biom <- rarefy_even_depth(sim.biom, rngseed=TRUE)
 ```
 Create α-diversity metrics 
 ```
-alpha <- Alpha.Diversity(sim.biom)
+alpha <- Alpha.Diversity(sim.biom, Normalize = FALSE)
 ```
 Import a binary trait and covariate adjustments
 ```
@@ -172,7 +172,7 @@ x2 <- sample_data(sim.biom)$x2
 ```
 Run aMiAD
 ```
-fit <- aMiAD(alpha, y, cov = cbind(x1,x2), model = "binomial", Normalize = FALSE)
+fit <- aMiAD(alpha, y, cov = cbind(x1,x2), model = "binomial")
 ```
 Plot aMiAD
 ```
