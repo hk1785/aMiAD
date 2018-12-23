@@ -176,5 +176,5 @@ fit <- aMiAD(alpha, y, cov=cbind(x1,x2), model="binomial")
 ```
 Plot aMiAD
 ```
-aMiAD.plot(fit, filename = "Figure1.pdf", fig.title = "")
+aMiAD.plot(fit, filename="Figure1.pdf", fig.title="")
 ```
