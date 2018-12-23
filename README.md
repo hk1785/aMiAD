@@ -118,7 +118,7 @@ Alpha.Diversity(sim.biom, Normalize=FALSE)
 ## :mag: aMiAD
 
 ### Description
-This function tests the association bettwen microbial diversity in a community and a host trait of interest with or without covariate adjustments (e.g., age and gender). For the host traits of interest, continuous (e.g., BMI) or binary (e.g., disease status, treatment/placebo) traits can be handled.
+This function tests the association bettwen microbial diversity in a community and a host trait of interest with or without covariate adjustments (e.g., age and gender). aMiAD is a non-parametric method which does not require any distributional assumption to be satisfied. For the host traits of interest, continuous (e.g., BMI) or binary (e.g., disease status, treatment/placebo) traits can be handled.
 
 ### Usage
 ```
@@ -172,9 +172,9 @@ x2 <- sample_data(sim.biom)$x2
 ```
 Run aMiAD
 ```
-fit <- aMiAD(alpha, y, cov = cbind(x1,x2), model = "binomial")
+fit <- aMiAD(alpha, y, cov=cbind(x1,x2), model="binomial")
 ```
 Plot aMiAD
 ```
-aMiAD.plot(fit, filename = "Figure1A.pdf", fig.title = "")
+aMiAD.plot(fit, filename = "Figure1.pdf", fig.title = "")
 ```
