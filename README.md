@@ -27,6 +27,10 @@ URL: https://github.com/hk1785/aMiAD
 
 ## Prerequites
 
+devtools
+```
+install.packages("devtools")
+```
 phyloseq
 ```
 source("https://bioconductor.org/biocLite.R")
