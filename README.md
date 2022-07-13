@@ -10,7 +10,7 @@ Author: Hyunwook Koh
 
 Maintainer: Hyunwook Koh <hkoh7@jhu.edu>
 
-Description: This sofware package provides facilities for the implementation of aMiAD which tests the association between microbial diversity and a host trait of interest. For the host trait of interest, a continuous (e.g., BMI) or a binary (e.g., disease status, treatment/placebo) trait can be handled. aMiAD is a non-parametric method which does not require any distributional assumption to be satisfied.
+Description: This sofware package provides facilities for the implementation of aMiAD which tests the association between microbial diversity and a host trait of interest. For the host trait of interest, a continuous (e.g., BMI) or a binary (e.g., disease status, treatment/placebo) trait can be handled. aMiAD is a non-parametric method which does not require any full distributional assumption on microbial diversity to be satisfied.
 
 NeedsCompilation: No
 
